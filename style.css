@@ -1,0 +1,58 @@
+/* TITOLO */
+.titolo{
+    margin-top: 50px;
+    color:red;
+    text-align:center;
+    font-size: 40px;
+}
+
+/* LAMPADINA */
+.centramento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.lampadina{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: solid 3px black;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+.input-morse{
+    background-color: orange;
+    border: solid 3px black;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 25px;
+}
+.input-morse::placeholder{
+    color:rgba(0, 0, 0, 0.541);
+}
+.input-morse:focus{
+    outline: solid 1px black;
+    background-color: rgb(240, 179, 12);
+}
+.invia{
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:10px;
+    align-items:center;
+    border:solid 3px black;
+}
+.invia:hover{
+    border:solid 3px black;
+    background-color: rgb(240, 179, 12);
+}
+  
