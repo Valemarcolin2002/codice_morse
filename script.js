@@ -97,7 +97,7 @@ inviaButton.addEventListener("click", async () => {
             await nove();
         } else if(carattere == "0") {
             await zero();
-        } else {
+        } else if(carattere==" "){
             await spazioParola();
             await intermezzo();
         }
